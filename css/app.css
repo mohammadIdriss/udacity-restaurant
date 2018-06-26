@@ -24,66 +24,74 @@ time, mark, audio, video {
     line-height: normal;
     vertical-align: baseline;
 }
-body{
-	text-transform:capitalize;
-}
+
 .social-media{
 	background-image:url(../imgs/final.jpg);
 	height:800px;
 	background-size:cover;
 	color:#fff;
 	text-align:center;
-	font-weight:bold;
-	font-size:30px;
-	padding:100px
+	font-size:40px;
+	padding:100px;
+	text-transform:capitalize;
 }
 .social-media #footer-wrapper{
-	width:80%;
-	margin-left:100px;
+	width:100%;
 	text-align:center;
-	border-bottom:1px solid #ddd;
-	margin-bottom:20px
+	margin-bottom:30px;
+}.social-media #footer-wrapper h2{
+	margin-bottom:50px
 }
 .social-media #footer-wrapper ul{
 	list-style-type:none;
 	margin:20px 0;
 	color:#FEBA4C;
+	
 }
 .social-media #footer-wrapper ul li{
 	display:inline;
-	margin-right:10px;
-	margin-left:10px;
+	margin-right:20px;
 }
 .social-media #footer-wrapper ul:first-of-type{
-	margin-left:100px
+	margin-left:100px;
+	margin-bottom:50px;
 } 
 .social-media #footer-wrapper ul:first-of-type li:last-of-type{
-	margin-right:100px;
+	margin-right:100px
 }
-.social-media #footer-wrapper textarea{
-	width:67%;
-	margin-top:5px;
-	height:200px;
-	background-color:#222;
-	color:#fff;
-	opacity:0.8;
-	text-indent:5px;
-	font-size:20px
+.social-media #footer-wrapper ul:last-of-type{
+	font-size:55px;
+	font-weight:normal;
+	margin-top:30px
 }
-.social-media #footer-wrapper button{
-	margin-bottom:20px;
-	background-color:transparent;
-	padding:10px;
-	color:#fff;
-	cursor:pointer;
-	border:1px solid #ccc;
+.fa-phone{
+	transform:rotate(100deg);
 }
-.social-media #footer-wrapper input[type=email]{
-	width:67%;
-	height:30px;
-	background-color:#222;
-	color:#fff;
-	border:1px solid #ccc;
-	text-indent:5px;
-	opacity:0.8;
+.social-media #footer-wrapper a{
+	color:currentColor;
+	text-decoration:none;
+}
+.line{
+	border-bottom:1px solid #ccc;
+	width:70%;
+	margin-left:120px;
+	margin-bottom:50px
+}
+.fa-facebook-f,.fa-twitter,.fa-instagram,.fa-pinterest-p,.fa-whatsapp{
+	transition:all 0.3s
+}
+.fa-facebook-f:hover{
+	color:#2A5BF3;
+}
+.fa-twitter:hover{
+	color:#12C9FF;
+}
+.fa-instagram:hover{
+	color:#D54029;
+}
+.fa-pinterest-p:hover{
+	color:#F2100C;
+}
+.fa-whatsapp:hover{
+	color:#09F545;
 }
